@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group
+        android:id="@+id/group1"
+        android:menuCategory="alternative" 
+         android:enabled="true" android:visible="true">
+        <item
+            android:id="@+id/item1Todos"
+            android:orderInCategory="1"
+            android:showAsAction="ifRoom|withText"
+            android:title="Todos los partidos"
+             android:icon="@drawable/ic_menu">
+        </item>
+        <item
+            android:id="@+id/item2Local"
+            android:showAsAction="ifRoom|withText"
+            android:icon="@drawable/ic_menu_home"
+            android:orderInCategory="2"
+            android:title="Partidos como local">
+        </item>
+        <item
+            android:id="@+id/item3Visi"
+            android:showAsAction="ifRoom|withText"
+            android:icon="@drawable/ic_lock_airplane_mode"
+            android:orderInCategory="3"
+            android:title="Partidos como visitantes">
+        </item>
+    </group>
+
+</menu>

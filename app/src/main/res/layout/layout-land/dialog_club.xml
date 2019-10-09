@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/AppTheme"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#0c2d4e"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imageView1D"
+        android:layout_width="130dp"
+        android:layout_height="160dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/borde2"
+        android:src="@drawable/cb_miraflores4" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/borde"
+                android:text="Dirección: C/ Romancero 42-44 09002 Burgos (Burgos)\nTeléfono: 947272344\nFax: 947274073\nWeb: www.cbmiraflores.es\nE-mail: joseignacio@mpabogados.org\nPabellón de juego: Polideportivo de &apos;El Plantio&apos;\nDirección del Pabellón: C/ de los Deportes s/n 09007 Burgos (Burgos)\nHora de juego como local: Viernes 21:00\nCamiseta Titular: Azul Y Naranja\nPantalón Titular: Azul Y Naranja\nCamiseta Reserva: Blanca\nPantalón Reserva: Blanco\nPresidente: Jesus Martínez Nogal"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/TextView4D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Trayectoria del Club:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView3D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/borde"
+                android:text="Temp. Competición\n95/96 \tProvincial M.\n96/97 \tProvincial M.\n97/98 \tProvincial M.\n98/99 \tProvincial M.\n99/00 \tProvincial M.\n00/01 \tProvincial M.\n15/16 \tLEB ORO"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView5D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView6D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                />
+           
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

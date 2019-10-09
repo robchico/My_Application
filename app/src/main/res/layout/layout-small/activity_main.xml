@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/uno"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Act./Desc. Noticias LEB ORO"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/lstData"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/borde3" >
+
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/ButtonVirtual"
+                    android:layout_width="140dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button2"
+                    android:text="@string/virtual"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/ButtonClasif"
+                    android:layout_width="140dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button2"
+                    android:text="@string/clasificaci_n"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/ButtonRankigs"
+                    android:layout_width="140dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:background="@drawable/button2"
+                    android:text="@string/rankings"
+                    android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/ButtonCalendario"
+                    android:layout_width="140dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button2"
+                    android:text="@string/calendario"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/ButtonPlantilla"
+                    android:layout_width="140dp"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button2"
+                    android:text="@string/plantilla"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/ButtonInfo"
+                    android:layout_width="140dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button2"
+                    android:text="@string/info_club"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

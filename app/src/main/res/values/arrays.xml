@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="arr_lis1">
+        <item>Dirección: C/ Romancero 42-44 09002 Burgos (Burgos)</item>
+        <item>Teléfono: 947272344</item>
+        <item>Web: www.cbmiraflores.es</item>
+        <item>E-mail: joseignacio@mpabogados.org</item>
+        <item>Pabellón de juego: Polideportivo de "El Plantio"</item>
+        <item>Dirección del Pabellón: C/ de los Deportes s/n 09007 Burgos (Burgos)</item>
+        <item>Hora de juego como local: Viernes 21:00</item>
+        <item>Camiseta Titular: Azul Y Naranja</item>
+        <item>Pantalón Titular: Azul Y Naranja</item>
+        <item>Camiseta Reserva: Blanca</item>
+        <item>Pantalón Reserva: Blanco</item>
+        <item>Presidente: Jesus Martínez Nogal</item>
+    </string-array>
+    <string-array name="arr_lis2">
+        <item>95/96 \tProvincial M.</item>
+        <item>96/97 \tProvincial M.</item>
+        <item>97/98 \tProvincial M.</item>
+        <item>98/99 \tProvincial M.</item>
+        <item>99/00 \tProvincial M.</item>
+        <item>00/01 \tProvincial M.</item>
+        <item>15/16 \tLEB ORO</item>
+    </string-array>
+    <string-array name="nav_options">
+        <item>Todos</item>
+        <item>Local</item>
+        <item>Visitante</item>
+    </string-array>
+    <string-array name="nav_icons">
+        <item>@android:drawable/ic_dialog_info</item>
+        <item>@android:drawable/arrow_down_float</item>
+        <item>@android:drawable/arrow_up_float</item>
+    </string-array>
+    <string-array name="entre_trayec">
+        <item>89/90: CajaBadajoz</item>
+        <item>90/93: Ferrys Llíria</item>
+        <item>93/94: Dyc Lugo</item>
+        <item>94/95: Somontano Huesca</item>
+        <item>95/96: Grupo Agb Huesca</item>
+        <item>96/97: Baloncesto Fuenlabrada</item>
+        <item>98/01: CB Lucentum Alicante (LEB)</item>
+        <item>01/02: CB Ciudad de Huelva (LEB)</item>
+        <item>02/04: Leche Río Breogán (ACB)</item>
+        <item>08/15: Autocid Ford Burgos (LEB Oro)</item>
+        <item>15/16: San Pablo Inmobiliaria (LEB Oro)</item>
+    </string-array>
+    <string-array name="entre_palmares">
+        <item>Ascenso del CB Llíria a Liga ACB en la temporada 90/91.</item>
+        <item>Campeón de la LEB con el CB Lucentum Alicante en la temporada 99/00, logra el ascenso a la Liga ACB</item>
+        <item>Campeón de la LEB Oro con el Club Baloncesto Atapuerca en la temporada 12/13</item>
+        <item>Ascenso del Club Baloncesto Atapuerca en la temporada 13/14</item>
+        <item>Campeón de la LEB Oro con el Club Baloncesto Atapuerca en la temporada 14/15</item>
+    </string-array>
+    <string-array name="j2_trayec">
+        <item>Sopron KC - Hungría 14/15</item>
+        <item>San Pablo Inmobiliaria Burgos - LEB Oro 15/16</item>
+    </string-array>
+    <string-array name="j5_trayec">
+        <item>Unicaja Málaga B - EBA 02/03</item>
+        <item>Unicaja Málaga - ACB 03/04</item>
+        <item>Cáceres CB - LEB 04/05</item>
+        <item>CB Montilla - EBA 05/06</item>
+        <item>CB Lliria - LEB 2 06/07</item>
+        <item>Melilla Baloncesto - LEB Oro 07/08 [10º]</item>
+        <item>Melilla Baloncesto - LEB Oro 08/09 [3º]</item>
+        <item>Melilla Baloncesto - LEB Oro 09/10 [4º]</item>
+        <item>Menorca Basquet - ACB 10/11 [18º (Descenso)]</item>
+        <item>Autocid Ford Burgos - LEB Oro 11/12 [6º]</item>
+        <item>Lucentum Alicante - LEB Oro 12/13 [2º (Ascenso)]</item>
+        <item>Ourense Termal - LEB Oro 13/14 [12º]</item>
+        <item>Quesos Cerrato Palencia (Causó baja) - LEB Oro 14/15 [8º]</item>
+        <item>Gipuzkoa Basket - ACB 14/15 [17º (Descenso)]</item>
+        <item>San Pablo Inmobiliaria Burgos - LEB Oro 15/16</item>
+    </string-array>
+    <string-array name="j5_palmares">
+        <item>1 Copa del Príncipe 2009/10</item>
+    </string-array>
+    <string-array name="j7_trayec">
+        <item>CB Olesa - EBA 06/08</item>
+        <item>CB Olesa - EBA Grupo C 08/09 [1º (Ascenso)]</item>
+        <item>CB Granollers Abolafio - EBA Grupo C 09/10 [2º]</item>
+        <item>CB Prat Joventut - LEB Plata 10/11 [6º]</item>
+        <item>CB Prat Joventut - LEB Plata 11/12 [3º]</item>
+        <item>CB Prat Joventut - LEB Plata 12/13 [6º]</item>
+        <item>CB Prat Joventut - LEB Plata 13/14 [2º (Ascenso)]</item>
+        <item>CB Prat Joventut - LEB Oro 14/15 [15º (Descenso)]</item>
+        <item>San Pablo Inmobiliaria Burgos - LEB Oro 15/16</item>
+    </string-array>
+<string-array name="j7_palmares">
+    <item >1 Copa LEB Plata 13/14</item>
+</string-array>
+<string-array name="j8_trayec">
+    <item >Xion Dukes Klosterneuburg - Austria 10/11</item>
+    <item >BC River Andorra - LEB Plata 11/12 [1º (Ascenso)]</item>
+    <item >BC River Andorra - LEB Oro 12/13 [3º]</item>
+    <item >Autocid Ford Burgos - LEB Oro 13/14 [2º (Ascenso)]</item>
+    <item >Autocid Ford Burgos - LEB Oro 14/15 [1º (Ascenso)]</item>
+    <item >San Pablo Inmobiliaria Burgos - LEB Oro 15/16</item>
+</string-array>
+<string-array name="j8_palmares">
+    <item >1 LEB Plata 11/12</item>
+    <item >1 LEB 14/15</item>
+</string-array>
+<string-array name="j9_trayec">
+    <item >Baloncesto Fuenlabrada B - EBA 04/05</item>
+    <item >Baloncesto Fuenlabrada - ACB 05/06</item>
+    <item >Getafe Beta - EBA 06/07</item>
+    <item >Baloncesto Fuenlabrada - ACB 06/07</item>
+    <item >Alta Gestión Fuenlabrada - ACB 07/08 [13º]</item>
+    <item >CB L´Hospitalet - LEB Oro 07/08 [18º (Descenso)]</item>
+    <item >Baloncesto León (Causó baja) - LEB Oro 08/09 [8º]</item>
+    <item >Qalat Cajasol - LEB Plata 08/09 [16º (Descenso)]</item>
+    <item >CB Illescas - LEB Plata 09/10 [13º]</item>
+    <item >Ayuda en Acción Fuenlabrada - ACB 09/10 [16º]</item>
+    <item >Melilla Baloncesto - LEB Oro 10/11 [11º]</item>
+    <item >Baloncesto Fuenlabrada - ACB 10/11 [7º]</item>
+    <item >Mad-Croc Fuenlabrada - ACB 11/12 [16º]</item>
+    <item >Mad-Croc Fuenlabrada - ACB 12/13 [14º]</item>
+    <item >Baloncesto Fuenlabrada - ACB 13/14 [15º]</item>
+    <item >Montakit Fuenlabrada - ACB 14/15 [18º (Descenso)]</item>
+    <item >San Pablo Inmobiliaria Burgos - LEB Oro 15/16</item>
+</string-array>
+<string-array name="j9_palmares">
+    <item >Medalla de Bronce Europeo sub´18 2006</item>
+    <item >Medalla de Bronce Europeo sub´20 2008</item>
+</string-array>
+<string-array name="j10_trayec">
+    <item >Neptunas Klaipeda - Lituania 14/15</item>
+    <item>San Pablo Inmobiliaria Burgos - LEB Oro 2015/16</item>
+</string-array>
+<string-array name="j12_trayec">
+    <item >Tartu Rock - Estonia 14/15</item>
+    <item >San Pablo Inmobiliaria Burgos - LEB Oro 15/16</item>
+</string-array>
+<string-array name="j13_trayec">
+    <item >VROS Darda - Croacia 14/15</item>
+     <item >San Pablo Inmobiliaria Burgos - LEB Oro 15/16</item>
+</string-array>
+<string-array name="j15_trayec">
+    <item >CB Estudiantes B - EBA 07/08</item>
+     <item >MMT Estudiantes - EBA Grupo B 08/09 [6º]</item> 
+     <item >Asefa Estudiantes - EBA Grupo B 09/10 [8º]</item>
+      <item >Asefa Estudiantes - ACB 10/11 [12º]</item>
+      <item >Asefa Estudiantes - ACB 11/12 [17º (Descenso)]</item>
+      <item >CB Breogan Lugo - LEB Oro 12/13 [6º]</item>
+      <item >Ourense Termal - LEB Oro 13/14 [12º]</item>
+      <item >Ourense Termal - LEB Oro 14/15 [2º (Ascenso)]</item>
+    <item >San Pablo Inmobiliaria Burgos - LEB Oro 15/16</item>
+</string-array>
+<string-array name="j15_palmares">
+    <item >Internacional en divisiones inferiores U18, U19 y U20 (bronce)</item>
+</string-array>
+<string-array name="j19_trayec">
+    <item >CB Sant Josep Badalona - EBA 00/01</item>
+    <item >Baloncesto León B - EBA 01/03</item>
+    <item >CB Monzón - EBA 03/04</item>
+    <item >CB Tarragona - LEB 04/05</item>
+    <item >UB Sabadell - LEB 2 05/06</item>
+    <item >CB L´Hospitalet - LEB 06/07</item>
+    <item >Leche Río Breogán - LEB Oro 07/08 [5º]</item>
+    <item >Plus Pujol Lleida (Causó baja) - LEB Oro 08/09 [10º]</item>
+    <item >CB Valladolid - LEB Oro 08/09 [1º (Ascenso)]</item>
+    <item >Cáceres 2016 (Causó baja) - LEB Oro 09/10 [6º]</item>
+    <item >CB River Andorra - LEB Plata 09/10 [6º]</item>
+    <item >CB Tarragona 2017 - LEB Oro 10/11 [13º]</item>
+    <item >CB Tarragona 2017 - LEB Oro 11/12 [16º]</item>
+    <item >Palencia Baloncesto - LEB Oro 12/13 [4º]</item>
+    <item >Quesos Cerrato Palencia - LEB Oro 13/14 [3º]</item>
+    <item >Quesos Cerrato Palencia - LEB Oro 14/15 [8º]</item>
+    <item >San Pablo Inmobiliaria Burgos - LEB Oro 15/16</item>
+</string-array>
+<string-array name="j19_palmares">
+    <item >1 Copa Castilla y León (2012)</item>
+    <item >1 Copa del Príncipe (2014/15)</item>
+</string-array>
+<string-array name="vacio">
+    <item > - </item>
+</string-array>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#0c2d4e"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView1D2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1D2"
+                android:layout_width="130dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/borde2"
+                android:src="@drawable/cb_miraflores4" />
+
+            <ListView
+                android:id="@+id/listView1D2"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:background="@drawable/borde"
+                android:clickable="false" >
+
+            </ListView>
+
+            <TextView
+                android:id="@+id/TextView4D2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Trayectoria del Club:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/white" />
+
+            <ListView
+                android:id="@+id/listView2D2"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:background="@drawable/borde"
+                android:clickable="false" >
+
+            </ListView>
+           
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

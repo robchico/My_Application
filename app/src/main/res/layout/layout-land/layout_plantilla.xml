@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/AppTheme"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="#0c2d4e"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp" >
+
+        <ImageView
+            android:id="@+id/imageView1Plan"
+            android:layout_width="110dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/borde2"
+            android:src="@drawable/miraflores3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1Plan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/borde"
+                android:text="TextView"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/TextView4Plan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trayectoria:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/white" />
+
+            <ListView
+                android:id="@+id/listView2Plan"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/borde"
+                android:cacheColorHint="@android:color/transparent"
+                android:clickable="false"
+                android:fadeScrollbars="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:listSelector="@android:color/transparent" >
+            </ListView>
+
+            <TextView
+                android:id="@+id/textView5Plan"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Palmares:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/white" />
+
+            <ListView
+                android:id="@+id/listView3Plan"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/borde"
+                android:cacheColorHint="@android:color/transparent"
+                android:clickable="false"
+                android:fadeScrollbars="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:listSelector="@android:color/transparent" >
+            </ListView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

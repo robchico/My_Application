@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     android:background="@drawable/uno" 
+    tools:context="com.example.cbmiraflores.PlantillaActivity" >
+
+     <GridView
+         android:id="@+id/gridViewPlantilla"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:columnWidth="80dp"
+         android:gravity="center"
+         android:numColumns="2"
+         android:stretchMode="columnWidth" >
+
+    </GridView>
+
+</LinearLayout>
